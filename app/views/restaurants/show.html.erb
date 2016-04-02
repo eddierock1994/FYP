@@ -4,6 +4,16 @@
   <strong>Name:</strong>
   <%= @restaurant.name %>
 </p>
+<strong>Address:</strong>
+  <%= @restaurant.address %>
+</p>
+<strong>Phone:</strong>
+  <%= @restaurant.phone_no %>
+</p>
+<p>
+<strong>Opening Time:</strong>
+  <%= @restaurant.opening_time %>
+</p>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
